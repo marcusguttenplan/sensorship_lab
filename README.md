@@ -103,6 +103,7 @@ waybackpack <url> --list
 * [metagoofil (metadata)](https://github.com/laramies/metagoofil)
 * [harvester (real estate)](https://github.com/dayweek/harvester)
 * [harvester (scraper)](https://github.com/blazaid/harvester)
+* [twoolpy](https://github.com/karpathy/twoolpy)
 
 ##### general tech cheat sheets
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
