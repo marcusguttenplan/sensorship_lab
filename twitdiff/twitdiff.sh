@@ -6,5 +6,6 @@
   do
      echo $i # or do whatever with individual element of the array
      t followers $i >> $i.txt
+     watch -n 20 'bash -c "diff <(sort $i.txt) $i.txt"'
   done
   # cd "$userlist" && atom . && gulp
