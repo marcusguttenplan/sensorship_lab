@@ -11,7 +11,7 @@ Install homebrew for OS X
 ```
 
 ```
-brew install numpy scipy etc etc etc
+brew install numpy scipy watch
 ```
 
 ### Git
