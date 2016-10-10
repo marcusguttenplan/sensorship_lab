@@ -11,7 +11,7 @@ var settings = {
     contrast: 5,
     brightness: 0.5,
     threshold: 80,
-    minCorrelation: 0.25,
+    minCorrelation: 0.15,
 };
 
 
