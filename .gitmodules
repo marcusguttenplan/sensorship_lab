@@ -4,3 +4,6 @@
 [submodule "twoolpy"]
 	path = twoolpy
 	url = https://github.com/karpathy/twoolpy
+[submodule "theHarvester"]
+	path = theHarvester
+	url = https://github.com/laramies/theHarvester
