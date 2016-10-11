@@ -1,3 +1,6 @@
 [submodule "clmtrackr"]
 	path = clmtrackr
 	url = https://github.com/auduno/clmtrackr
+[submodule "twoolpy"]
+	path = twoolpy
+	url = https://github.com/karpathy/twoolpy
