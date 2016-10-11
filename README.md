@@ -87,8 +87,51 @@ waybackpack <url> --list
 ## Laboratory Usage
 ### Anthropometrics
 Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
+
+#### eyetracker
+
+`cd` into the `eyetrackr` directory and run:
+```
+npm i
+```
+and then:
+```
+gulp
+```
+This will open a webpage at `http://localhost:3000` with blink counting web app.
+
+#### clmtrackr
+
+The folder `clmtrackr` is the basis for video recognition app with gender and emotion detection, as well as masking. CUSTOMIZE THIS!
+
+to run, install an http-server to serve the files locally from the project folder"
+```
+npm install http-server -g
+```
+
+then run `http-server`, and navigate to `http://localhost:3000` in your browser.
+
+
 ### Forensic Harvesting
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
+
+#### twitdiff
+`twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time.
+
+```
+sh twitdiff.sh
+```
+
+and
+
+```
+python followersdiff.py
+```
+
+the python script works better but hits API rate limits (need to fix), the shell script can scrape more info but currently does not show differences (possible fix?)
+
+
+
 ### dscout
 Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
 #
