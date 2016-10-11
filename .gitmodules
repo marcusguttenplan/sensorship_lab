@@ -7,3 +7,6 @@
 [submodule "theHarvester"]
 	path = theHarvester
 	url = https://github.com/laramies/theHarvester
+[submodule "waybackpack"]
+	path = waybackpack
+	url = https://github.com/jsvine/waybackpack
