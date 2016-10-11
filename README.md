@@ -3,6 +3,9 @@ Our proposed lab brings together our respective work in digital ethnography and 
 
 Our proposal will take the form of a makerspace / design lab wherein ongoing technology training sessions will be held for ethnographic practitioners interested in getting hands on experience with the tools and techniques of surveillance. This provides ethnographic practitioners a glimpse into automated investigation techniques employed by the state [oppressors]. These techniques are often used to inform researchers, journalists, and activists seeking to witness events in the digital age. How can ethnographers engage these tools to augment an ethnographic output? How can ethnographers engage these tools to create collaborative outputs with their interlocutors and communities? 
 
+## automated investigation
+
+#
 
 ### Brew
 Install homebrew for OS X
@@ -80,12 +83,19 @@ waybackpack <url> --list
 ```
 
 # Laboratory Usage
-### theHarvester
+## Anthropometrics
+Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
+## Forensic Harvesting
+Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
+## dscout
+Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
+#
+### ~~theHarvester~~
 ### [Face Tracker / Obfuscator](https://auduno.github.io/clmtrackr/docs/reference.html)
 ### Face Database
-### Scraper?
-### Sniffer?
-### [TweetTracking](https://github.com/scotch-io/react-tweets)
+### ~~Scraper?~~
+### ~~Sniffer?~~
+### ~~[TweetTracking](https://github.com/scotch-io/react-tweets)~~
 
 
 # Reference Links
