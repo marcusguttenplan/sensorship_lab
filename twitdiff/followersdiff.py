@@ -25,13 +25,21 @@ api = authenticate()
 for i in range(len(user_list)):
 
     # mkdir and cachefiles for each user
-    os.mkdir(user_list[i])
+    if not os.path.exists(user_list[i]):
+        os.mkdir(user_list[i])
+
     cachefile = os.path.join(user_list[i], "followers_cache.txt")
 
     #update followers
-    print "updating followers for user [%s]..." % (user_list[i], )
-    followers = tweepy.Cursor(api.followers, id=user_list[i]).items()
-    unames = [x.screen_name.lower() for x in followers]
+    print "updating followers for user %s..." % (user_list[i], )
+
+    cmd = "t followers " + user_list[i]
+    followers = os.popen(cmd).read()
+    print(followers)
+
+    # unames = [x.screen_name.lower() for x in followers]
+    unames = followers.split()
+    print(unames)
 
     if os.path.isfile(cachefile):
 
