@@ -128,7 +128,7 @@ and
 python followersdiff.py
 ```
 
-the python script works better but hits API rate limits (need to fix), the shell script can scrape more info but currently does not show differences (possible fix?)
+the python script works better but hits API rate limits (FIXED!!!), the shell script can scrape more info but currently does not show differences (possible fix?)
 
 
 
