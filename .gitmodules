@@ -10,3 +10,6 @@
 [submodule "waybackpack"]
 	path = waybackpack
 	url = https://github.com/jsvine/waybackpack
+[submodule "recon-ng"]
+	path = recon-ng
+	url = https://bitbucket.org/LaNMaSteR53/recon-ng.git
