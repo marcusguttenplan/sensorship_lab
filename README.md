@@ -134,14 +134,13 @@ the python script works better but hits API rate limits (FIXED!!!), the shell sc
 
 ### dscout
 Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
-#
+
 #### ~~theHarvester~~
 #### [Face Tracker / Obfuscator](https://auduno.github.io/clmtrackr/docs/reference.html)
 #### Face Database
 #### ~~Scraper?~~
 #### ~~Sniffer?~~
 #### ~~[TweetTracking](https://github.com/scotch-io/react-tweets)~~
-
 
 # Reference Links
 
@@ -163,3 +162,10 @@ Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
 
 ##### general tech cheat sheets
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+# To Do
+* link submodules from bitbucket
+* restructure and unify clm projects
+* scripts for recon
+* add recon to shim
