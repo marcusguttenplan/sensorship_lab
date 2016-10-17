@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<title>Sensorship Lab</title>
+		<title>Face tracker</title>
 		<meta charset="utf-8">
 		<link href="./styles/bootstrap.min.css" rel="stylesheet" type="text/css">
 		<style>
@@ -67,9 +67,12 @@
 
 			#controls {
 				text-align : center;
+        position: absolute;
+        left: 20px;
+        top: 49px;
 			}
 
-			#emotion_container, #gender_container {
+			#emotion_container {
 				width: 600px;
 			}
 
@@ -86,11 +89,17 @@
 				margin-left : 35px;
 			}
 
-			#emotion_chart, #emotion_icons, #gender_chart {
+			#emotion_chart, #emotion_icons {
 				margin: 0 auto;
-				width : 400px;
-        text-align: center;
+				/*width : 400px;*/
+        width: 60%;
 			}
+
+      #gender_chart {
+        margin: 0 auto;
+        /*width: 200px;*/
+        width: 40%;
+      }
 
 			#icon1, #icon2, #icon3, #icon4, #icon5, #icon6 {
 				visibility : hidden;
@@ -111,19 +120,7 @@
 				window.location.protocol = "https";
 			}
 		</script>
-		<script type="text/javascript">
 
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-32642923-1']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-
-		</script>
 	</head>
 	<body>
 		<script src="./js/utils.js"></script>
@@ -135,8 +132,6 @@
 		<script src="./js/emotionmodel.js"></script>
     <script src="./js/gendermodel.js"></script>
 		<div id="content">
-			<h2>Emotion detection example</h2>
-			<p>This a test of emotion detection based on parameter output from <em>clmtrackr</em>.</p>
 			<div id="container">
 				<video id="videoel" width="400" height="300" preload="auto" loop>
 				</video>
@@ -150,14 +145,15 @@
 					<img class="emotion_icon" id="icon3" src="./media/icon_surprised.png">
 					<img class="emotion_icon" id="icon4" src="./media/icon_happy.png">
 				</div>
-				<div id='emotion_chart'></div>
+        <div>
+          <div id='emotion_chart'></div>
+          <div id='gender_chart'></div>
+        </div>
 			</div>
-      <div id="gender_container">
-        <div id='gender_chart'></div>
-      </div>
 			<div id="controls">
 				<input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()" id="startbutton"></input>
 			</div>
+
 
 			<script>
 				var vid = document.getElementById('videoel');
@@ -172,7 +168,7 @@
 					startbutton.disabled = null;
 				}
 
-				var insertAltVideo = function(video) {
+				/*var insertAltVideo = function(video) {
 					if (supports_video()) {
 						if (supports_ogg_theora_video()) {
 							video.src = "./media/cap12_edit.ogv";
@@ -184,8 +180,7 @@
 						//video.play();
 						return true;
 					} else return false;
-				}
-
+				}*/
 				navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
 				window.URL = window.URL || window.webkitURL || window.msURL || window.mozURL;
 
@@ -209,11 +204,11 @@
 						}
 						vid.play();
 					}, function() {
-						insertAltVideo(vid);
+						//insertAltVideo(vid);
 						alert("There was some problem trying to fetch video from your webcam. If you have a webcam, please make sure to accept when the browser asks for access to your webcam.");
 					});
 				} else {
-					insertAltVideo(vid);
+					//insertAltVideo(vid);
 					alert("This demo depends on getUserMedia, which your browser does not seem to support. :(");
 				}
 
@@ -231,9 +226,8 @@
 					ctrack.start(vid);
 					// start loop to draw face
 					drawLoop();
+          drawGenderLoop();
 				}
-
-        var gender = undefined;
 
 				function drawLoop() {
 					requestAnimFrame(drawLoop);
@@ -248,7 +242,7 @@
 					if (er) {
 						updateData(er);
 						for (var i = 0;i < er.length;i++) {
-							if (er[i].value > 0.4) {
+							if (er[i].value > 0.33) {
 								document.getElementById('icon'+(i+1)).style.visibility = 'visible';
 							} else {
 								document.getElementById('icon'+(i+1)).style.visibility = 'hidden';
@@ -257,13 +251,37 @@
 					}
 				}
 
+        /*********** setup of gender detection *************/
+
+
+				var gender = undefined;
+
+				function drawGenderLoop() {
+					requestAnimFrame(drawGenderLoop);
+					overlayCC.clearRect(0, 0, 400, 300);
+					//psrElement.innerHTML = "score :" + ctrack.getScore().toFixed(4);
+					if (ctrack.getCurrentPosition()) {
+						ctrack.draw(overlay);
+					}
+					var gcp = ctrack.getCurrentParameters();
+
+					var gr = gc.meanPredict(gcp);
+					if (gr) {
+						updateData(gr);
+					}
+				}
+
+
+
+        /******* EMOTION!! DETECTION!!! ********/
+
 				var ec = new emotionClassifier();
 				ec.init(emotionModel);
 				var emotionData = ec.getBlank();
 
 				/************ d3 code for barchart *****************/
 
-				var margin = {top : 20, right : 20, bottom : 10, left : 40},
+				var margin = {top : 20, right : 10, bottom : 10, left : 10},
 					width = 400 - margin.left - margin.right,
 					height = 100 - margin.top - margin.bottom;
 
@@ -271,25 +289,19 @@
 
 				var formatPercent = d3.format(".0%");
 
-				// var x = d3.scale.linear()
-				// 	.domain([0, ec.getEmotions().length]).range([margin.left, width+margin.left]);
-        //
-				// var y = d3.scale.linear()
-				// 	.domain([0,1]).range([0, height]);
+				var x = d3.scale.linear()
+					.domain([0, ec.getEmotions().length]).range([margin.left, width+margin.left]);
 
-        var x = d3.scale.linear()
-  				.domain([0, ec.getEmotions().length-1]).range([margin.left-barWidth/2, width+margin.left-barWidth/2]);
+				var y = d3.scale.linear()
+					.domain([0,1]).range([0, height]);
 
-  			var y = d3.scale.linear()
-  				.domain([0,1]).range([0, height]);
+        // var svg = d3.select("#emotion_chart").append("svg")
+				// 	.attr("width", width + margin.left + margin.right)
+				// 	.attr("height", height + margin.top + margin.bottom)
 
-				var svg = d3.select("#emotion_chart").append("svg")
-					.attr("width", width * 2 + margin.left + margin.right)
-					.attr("height", height * 2 + margin.top + margin.bottom)
-
-        var svg = d3.select("#gender_chart").append("svg")
-					.attr("width", width + margin.left + margin.right)
-					.attr("height", height + margin.top + margin.bottom)
+        var svg = d3.select("#emotion_chart").append("svg")
+          .attr("width", width)
+          .attr("height", height)
 
 				svg.selectAll("rect").
 				  data(emotionData).
@@ -345,6 +357,93 @@
 					rects.exit().remove();
 					texts.exit().remove();
 				}
+
+
+        /******** GENDER!!!!!!! DETECTION!!!!!!!! **********/
+
+        var gc = new emotionClassifier();
+				gc.init(genderModel);
+				var genderData = gc.getBlank();
+
+				/************ d3 code for barchart *****************/
+
+				var margin = {top : 20, right : 10, bottom : 10, left : 10},
+					width = 200 - margin.left - margin.right,
+					height = 100 - margin.top - margin.bottom;
+
+				var barWidth = 30;
+
+				var formatPercent = d3.format(".0%");
+
+				var x = d3.scale.linear()
+					.domain([0, gc.getEmotions().length-1]).range([margin.left-barWidth/2, width+margin.left-barWidth/2]);
+
+				var y = d3.scale.linear()
+					.domain([0,1]).range([0, height]);
+
+				var svg = d3.select("#gender_chart").append("svg")
+					.attr("width", width + margin.left + margin.right)
+					.attr("height", height + margin.top + margin.bottom)
+
+        // var svg = d3.select("#gender_chart").append("svg")
+        //   .attr("width", width)
+        //   .attr("height", height)
+
+				svg.selectAll("rect").
+				  data(genderData).
+				  enter().
+				  append("svg:rect").
+				  attr("x", function(datum, index) { return x(index); }).
+				  attr("y", function(datum) { return height - y(datum.value); }).
+				  attr("height", function(datum) { return y(datum.value); }).
+				  attr("width", barWidth).
+				  attr("fill", "#2d578b");
+
+				svg.selectAll("text.labels").
+				  data(genderData).
+				  enter().
+				  append("svg:text").
+				  attr("x", function(datum, index) { return x(index) + barWidth; }).
+				  attr("y", function(datum) { return height - y(datum.value); }).
+				  attr("dx", -barWidth/2).
+				  attr("dy", "1.2em").
+				  attr("text-anchor", "middle").
+				  text(function(datum) { return datum.value;}).
+				  attr("fill", "white").
+				  attr("class", "labels");
+
+				svg.selectAll("text.yAxis").
+				  data(genderData).
+				  enter().append("svg:text").
+				  attr("x", function(datum, index) { return x(index) + barWidth; }).
+				  attr("y", height).
+				  attr("dx", -barWidth/2).
+				  attr("text-anchor", "middle").
+				  attr("style", "font-size: 12").
+				  text(function(datum) { return datum.emotion;}).
+				  attr("transform", "translate(0, 18)").
+				  attr("class", "yAxis");
+
+				function updateData(data) {
+					// update
+					var rects = svg.selectAll("rect")
+						.data(data)
+						.attr("y", function(datum) { return height - y(datum.value); })
+						.attr("height", function(datum) { return y(datum.value); });
+					var texts = svg.selectAll("text.labels")
+						.data(data)
+						.attr("y", function(datum) { return height - y(datum.value); })
+						.text(function(datum) { return datum.value.toFixed(1);});
+
+					// enter
+					rects.enter().append("svg:rect");
+					texts.enter().append("svg:text");
+
+					// exit
+					rects.exit().remove();
+					texts.exit().remove();
+				}
+
 
 				/******** stats ********/
 
