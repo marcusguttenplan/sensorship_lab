@@ -10,6 +10,13 @@ Tools and techniques for mining information from everyday activity. (fix this bu
 
 ## Installation
 
+**TO-DO**
+
+* Get all of this installed on a clean Mac and Raspberry Pi to baseline requisites (Windows in the future).
+* Primer for finding and using tools like this
+* There are packages inside of the scripts that are required and might need to be sussed out
+
+
 ### Brew
 Install homebrew for OS X
 ```
@@ -88,19 +95,21 @@ waybackpack <url> --list
 ### Anthropometrics
 Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
 
-#### eyetracker
+#### facetracker
 
-`cd` into the `eyetrackr` directory and run:
+`cd` into the `facetracker` directory and run:
 ```
-npm i
+http-server
 ```
-and then:
-```
-gulp
-```
-This will open a webpage at `http://localhost:3000` with blink counting web app.
 
-#### clmtrackr
+**TO-DO**
+
+* integrate blinktracker, face deform, and face substitution
+
+
+This will open a webpage at `http://localhost:8080` with a facial recognition web app.
+
+#### clmtrackr (for reference)
 
 The folder `clmtrackr` is the basis for video recognition app with gender and emotion detection, as well as masking. CUSTOMIZE THIS!
 
@@ -122,7 +131,7 @@ Scripts for scraping information from the web, to emulate mass surveillance tech
 sh twitdiff.sh
 ```
 
-and
+or
 
 ```
 python followersdiff.py
