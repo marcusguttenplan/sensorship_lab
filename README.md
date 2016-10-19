@@ -109,12 +109,12 @@ To run:
 http-server
 ```
 
-This will open a webpage at `http://localhost:8080` with a facial recognition web app.
+This will open a webpage at `http://localhost:8080` with a facial recognition web app. Includes gender detection, emotion detection, and face masking (camoflauge?). Eye and blink tracking coming soon.
 
 
 **TO-DO**
 
-* integrate blinktracker, face deform, and face substitution
+* integrate blinktracker, face deform, and ~~face substitution~~
 
 #### clmtrackr (for reference)
 
