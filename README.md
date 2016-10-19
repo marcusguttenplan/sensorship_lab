@@ -97,29 +97,28 @@ Facial Recognition tool that checks a video feed to discern gender, emotion, ner
 
 #### facetracker
 
-`cd` into the `facetracker` directory and run:
+`cd` into the `facetracker` directory. To run, install an http-server to serve the files locally from the project folder"
+
+```
+npm install http-server -g
+```
+
+To run:
+
 ```
 http-server
 ```
+
+This will open a webpage at `http://localhost:8080` with a facial recognition web app.
+
 
 **TO-DO**
 
 * integrate blinktracker, face deform, and face substitution
 
-
-This will open a webpage at `http://localhost:8080` with a facial recognition web app.
-
 #### clmtrackr (for reference)
 
-The folder `clmtrackr` is the basis for video recognition app with gender and emotion detection, as well as masking. CUSTOMIZE THIS!
-
-to run, install an http-server to serve the files locally from the project folder"
-```
-npm install http-server -g
-```
-
-then run `http-server`, and navigate to `http://localhost:3000` in your browser.
-
+Run `http-server`, and navigate to `http://localhost:3000` in your browser.
 
 ### Forensic Harvesting
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
