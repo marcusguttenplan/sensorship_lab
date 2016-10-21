@@ -1,18 +1,9 @@
 [submodule "clmtrackr"]
 	path = clmtrackr
 	url = https://github.com/auduno/clmtrackr
-[submodule "theHarvester"]
-	path = theHarvester
-	url = https://github.com/laramies/theHarvester
 [submodule "waybackpack"]
 	path = waybackpack
 	url = https://github.com/jsvine/waybackpack
 [submodule "recon-ng"]
 	path = recon-ng
 	url = https://bitbucket.org/LaNMaSteR53/recon-ng.git
-[submodule "twitter-api-sentiment-analysis"]
-	path = twitter-api-sentiment-analysis
-	url = https://github.com/gt-big-data/twitter-api-sentiment-analysis
-[submodule "predator-vision"]
-	path = predator-vision
-	url = https://github.com/idevelop/predator-vision
