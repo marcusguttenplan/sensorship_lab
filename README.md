@@ -8,6 +8,9 @@ Our proposal will take the form of a makerspace / design lab wherein ongoing tec
 Tools and techniques for mining information from everyday activity. (fix this bullshit)
 
 * [Facetracker](#facetracker)
+* [clmtrackr](#clmtrackr)
+* [twitdiff](#twitdiff)
+* [social media mining](#social-media)
 
 ## Installation
 
@@ -81,7 +84,7 @@ waybackpack <url> --list
 ### Anthropometrics
 Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
 
-#### (#facetracker)
+#### Facetracker
 
 `cd` into the `facetracker` directory. To run, install an http-server to serve the files locally from the project folder"
 
@@ -125,16 +128,16 @@ python followersdiff.py
 the python script works better but hits API rate limits (FIXED!!!), the shell script can scrape more info but currently does not show differences (possible fix?)
 
 
+#### social media
+
+```
+sh harvest.sh
+```
+
 
 ### dscout
 Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
 
-#### ~~theHarvester~~
-#### [Face Tracker / Obfuscator](https://auduno.github.io/clmtrackr/docs/reference.html)
-#### Face Database
-#### ~~Scraper?~~
-#### ~~Sniffer?~~
-#### ~~[TweetTracking](https://github.com/scotch-io/react-tweets)~~
 
 # Reference Links
 
@@ -156,10 +159,3 @@ Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
 
 ##### general tech cheat sheets
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-
-# To Do
-* link submodules from bitbucket
-* restructure and unify clm projects
-* scripts for recon
-* add recon to shim
