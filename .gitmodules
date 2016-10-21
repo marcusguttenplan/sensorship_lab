@@ -1,9 +1,6 @@
 [submodule "clmtrackr"]
 	path = clmtrackr
 	url = https://github.com/auduno/clmtrackr
-[submodule "twoolpy"]
-	path = twoolpy
-	url = https://github.com/karpathy/twoolpy
 [submodule "theHarvester"]
 	path = theHarvester
 	url = https://github.com/laramies/theHarvester
@@ -13,15 +10,9 @@
 [submodule "recon-ng"]
 	path = recon-ng
 	url = https://bitbucket.org/LaNMaSteR53/recon-ng.git
-[submodule "Twitter-Sentiment-Analysis"]
-	path = Twitter-Sentiment-Analysis
-	url = https://github.com/mayank93/Twitter-Sentiment-Analysis
 [submodule "twitter-api-sentiment-analysis"]
 	path = twitter-api-sentiment-analysis
 	url = https://github.com/gt-big-data/twitter-api-sentiment-analysis
-[submodule "streamcrab"]
-	path = streamcrab
-	url = https://github.com/cyhex/streamcrab
 [submodule "predator-vision"]
 	path = predator-vision
 	url = https://github.com/idevelop/predator-vision
