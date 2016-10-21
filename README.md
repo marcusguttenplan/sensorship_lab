@@ -7,7 +7,6 @@ Our proposal will take the form of a makerspace / design lab wherein ongoing tec
 
 Tools and techniques for mining information from everyday activity. (fix this bullshit)
 
-
 ## Installation
 
 **TO-DO**
@@ -21,10 +20,6 @@ Tools and techniques for mining information from everyday activity. (fix this bu
 Install homebrew for OS X
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-```
-brew install numpy scipy watch
 ```
 
 ### Git
@@ -44,21 +39,10 @@ Brew will also install `python`, a programming language, and `pip`, python's pac
 brew install python
 ```
 
-If this doesn't work, we can use the system's `easy_install` with:
-```
-sudo easy_install pip
-```
-
 ### Open CV
 ```
 brew tap homebrew/science
 brew install opencv3 --HEAD
-```
-
-### Open BR
-Using the already "tapped" `homebrew/science` package, run
-```
-brew install openbr
 ```
 
 ### Tweet Tracking
