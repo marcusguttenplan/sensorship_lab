@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>predator vision</title>
+	<meta charset="utf-8" />
+ 	<link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+	<h1 id="info">Please allow this page to access your camera.</h1>
+
+	<div id="cameraNotSupported" class="notSupported">
+		<h1>Your browser does not support the Camera API.</h1>
+		<img src="images/screenshot.png" align="center" />
+	</div>
+
+	<div id="webGLNotSupported" class="notSupported">
+		<h1>Your browser does not support WebGL.</h1>
+		<img src="images/screenshot.png" align="center" />
+	</div>
+
+	<canvas id="heatmap"></canvas>
+
+	<a href="https://github.com/idevelop/predator-vision" id="fork" target="_blank">View on GitHub</a>
+	<a href="http://idevelop.github.com/" id="idevelop" target="_blank">Made by idevelop</a>
+
+	<script src="js/vendor/webgl-heatmap.js"></script>
+	<script src="js/vendor/camera.js"></script>
+	<script src="js/vendor/movement.js"></script>
+	<script src="js/vendor/app.js"></script>
+</body>
+</html>

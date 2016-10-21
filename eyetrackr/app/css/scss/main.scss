@@ -181,17 +181,18 @@ a.storybutton {color: #ffffff; text-decoration: none; display: inline-block; bor
 //
 
 html,body{
-  margin: 0 !important;
+  // margin: 0 !important;
   margin-bottom: 40px;
-  padding: 0 !important;
+  // padding: 0 !important;
   height: 100% !important;
   width: 100% !important;
   font-family: "FFMarkWebProLight", sans-serif; font-size: 10px;
-  widows: 3 !important;
-  background-color: #ffffff;
+  // widows: 3 !important;
+  // background-color: #ffffff;
   // overflow: auto;
   // text-rendering: geometricPrecision !important;
   text-align: center;
+  // max-width: 1150px;
 }
 
 
@@ -216,9 +217,37 @@ main {
   padding-bottom: 50px;
 }
 
-canvas {
+canvas#originalCanvas {
     border: 1px solid black;
+    width: 48%;
+    height: auto;
 }
+
+canvas#trackerCanvas {
+    border: 1px solid black;
+    width: 48%;
+    height: auto;
+}
+
+
+// video#videoel {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#overlay {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#webgl {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#sketch {
+//   width: 100%;
+//   height: auto;
+// }
+
+
 
 // #originalCanvas {
 //   width: 100%;
@@ -260,7 +289,7 @@ canvas {
     visibility: visible;
 }
 
-#content {
+#trackercontent {
     text-align: center;
     visibility: hidden;
     height: 100%;
@@ -272,8 +301,66 @@ body.active .holder:after {
     visibility: hidden;
 }
 
-body.active #content {
+body.active #trackercontent {
     visibility: visible;
+}
+
+
+
+.notSupported {
+	display: none;
+}
+
+.notSupported h1 {
+	color: #b41a1a;
+	margin-bottom: 20px;
+}
+
+.notSupported img {
+	display: block;
+	margin: 0 auto;
+}
+
+#fork,
+#idevelop {
+	display: block;
+	position: fixed;
+	z-index: 10;
+
+	top: 0;
+	right: 30px;
+	padding: 10px 50px 10px 10px;
+
+	background: url('../img/blacktocat.png') #0090ff no-repeat 95% 50%;
+	border: 1px solid #0090ff;
+	border-top: 0;
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#fork:hover,
+#idevelop:hover {
+	text-decoration: underline;
+}
+
+#idevelop {
+	opacity: 0.4;
+	border: 1px solid #eee;
+	border-top: 0;
+	color: #333;
+	right: 200px;
+	background: url('../img/idevelop.png') #fff no-repeat 95% 50%;
+}
+
+#idevelop:hover {
+	opacity: 1;
 }
 
 
