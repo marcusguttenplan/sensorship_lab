@@ -123,14 +123,14 @@
 
 	</head>
 	<body>
-		<script src="./js/utils.js"></script>
-		<script src="./js/clmtrackr.js"></script>
+		<script src="./js/vendor/utils.js"></script>
+		<script src="./js/vendor/clmtrackr.js"></script>
 		<script src="./models/model_pca_20_svm_emotionDetection.js"></script>
-		<script src="./js/Stats.js"></script>
-		<script src="./js/d3.min.js"></script>
-		<script src="./js/emotion_classifier.js"></script>
-		<script src="./js/emotionmodel.js"></script>
-    <script src="./js/gendermodel.js"></script>
+		<script src="./js/vendor/Stats.js"></script>
+		<script src="./js/vendor/d3.min.js"></script>
+		<script src="./js/vendor/emotion_classifier.js"></script>
+		<script src="./js/vendor/emotionmodel.js"></script>
+    <script src="./js/vendor/gendermodel.js"></script>
 		<div id="content">
 			<div id="container">
 				<video id="videoel" width="400" height="300" preload="auto" loop>
@@ -151,7 +151,7 @@
         </div>
 			</div>
 			<div id="controls">
-				<input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()" id="startbutton"></input>
+				<input class="btn" type="button" value="wait, loading video" disabled="disabled" onclick="startVideo()" id="startbutton"></input> <input class="btn" type="button" value="||" onclick="stopVideo()" id="stopbutton"></input>
 			</div>
 
 
@@ -166,6 +166,11 @@
 					var startbutton = document.getElementById('startbutton');
 					startbutton.value = "start";
 					startbutton.disabled = null;
+				}
+
+				function stopVideo() {
+					// stop video
+					vid.pause();
 				}
 
 				/*var insertAltVideo = function(video) {

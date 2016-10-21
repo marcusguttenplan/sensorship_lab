@@ -22,3 +22,6 @@
 [submodule "streamcrab"]
 	path = streamcrab
 	url = https://github.com/cyhex/streamcrab
+[submodule "predator-vision"]
+	path = predator-vision
+	url = https://github.com/idevelop/predator-vision
