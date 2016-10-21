@@ -1,0 +1,6 @@
+[submodule "clmtrackr"]
+	path = clmtrackr
+	url = https://github.com/auduno/clmtrackr
+[submodule "waybackpack"]
+	path = waybackpack
+	url = https://github.com/jsvine/waybackpack

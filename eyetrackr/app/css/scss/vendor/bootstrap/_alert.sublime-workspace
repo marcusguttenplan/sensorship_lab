@@ -1,0 +1,735 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clean",
+				"cleanhtml"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"border",
+				"border-left"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"mra",
+				"margin-bottom"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"acc",
+				"accordion_button"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"mr",
+				"margin-left"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"butt",
+				"btn-default"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"co",
+				"code	Tag"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"cop",
+				"copyHtml"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"fonts"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"sc",
+				"scripts"
+			],
+			[
+				"sou",
+				"sourcemaps"
+			],
+			[
+				"js",
+				"jshint"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"na",
+				"navbar-default-bg"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"da",
+				"dataUrl"
+			],
+			[
+				"bord",
+				"border-collapse"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"css",
+				"cssmin"
+			],
+			[
+				"u",
+				"uglify"
+			],
+			[
+				"j",
+				"jshint"
+			],
+			[
+				"ul",
+				"ul	Tag"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"a",
+				"text-align"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"base",
+				"base-border-color"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"FF",
+				"FFE900"
+			],
+			[
+				"bas",
+				"base-border-color"
+			],
+			[
+				"ca",
+				"card-background"
+			],
+			[
+				"h",
+				"headcolor"
+			],
+			[
+				"bg",
+				"bgcolor"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"w",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 361.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: se",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marcusguttenplan/Dropbox/_dev/_lib/bootstrap-4.0.0-alpha.3/scss/utilities/_display.scss",
+		"/Users/marcusguttenplan/Dropbox/_doc/_comp/mongo_createuser.txt",
+		"/Users/marcusguttenplan/Desktop/MyFontsWebfontsKit/StartHere.html",
+		"/Users/marcusguttenplan/Desktop/MyFontsWebfontsKit/MyFontsWebfontsKit.css",
+		"/Users/marcusguttenplan/Dropbox/_dev/2015_onionsaw/woven.is/algorithm.htm",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/webpack.config.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/src/server/server.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/build/app.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/package.json",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/build/server.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/reactorcore/src/server/bootstrap.js",
+		"/Users/marcusguttenplan/Downloads/FILES FOR PROGRAMMER/Icon",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/2016_react/tellmewhen/tellmewhen/server.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/accordion.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/index.html",
+		"/Users/marcusguttenplan/Dropbox/uhoh",
+		"/Volumes/FARM/https:::www.dropbox.com:l:h8qirpqVtzi78CEue83D7Q:f",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/gulpfile.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/css/scss/bootstrap/_glyphicons.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/js/main.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/css/scss/bootstrap/_variables.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/css/scss/bootstrap/_jumbotron.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/patterns/boilerbase/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/living_styles/app/dev.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/js/d3resume.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/js/vendor/modernizr-2.8.3.min.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/cvd3/app/js/vendor/jquery-1.11.3.min.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/living_styles/public/dev.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/faceplate/public/index.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/tellmewheretovote/index.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/tellmewhentovote/index.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/tellmewhentovote/dev.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/d3cv/.jshintrc",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/d3cv/app/js/vendor/modernizr-2.8.3.min.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/d3cv/app/js/vendor/jquery-1.11.3.min.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/d3cv/app/js/vendor/d3.min.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/living_styles/gulpfile.js",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/faceplate/app/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/d3cv/app/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/tellmewhentovote/public/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/motherplate-master/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/stylesheets/style.scss",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/threes/app/css/main.css",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/threes/app/index.html",
+		"/Users/marcusguttenplan/Dropbox/_dev/_impractic.al/threes/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/app/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/public/css/main.css",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/gulpfile.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/app/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/package.json",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/app/css/scss/vendor/_normalize.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/faceplate/.jshintrc",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/boilerbase/css/scss/bootstrap/_responsive-utilities.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/boilerbase/css/scss/style.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/boilerbase/LICENSE",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/css/scss/bootstrap/_dropdowns.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/css/scss/bootstrap/_navbar.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/css/scss/style.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/js/main.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/patterns/dropdown/css/scss/components/_nav.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/index.html",
+		"/Users/marcusguttenplan/Desktop/sketchy.html",
+		"/Users/marcusguttenplan/Desktop/test",
+		"/Users/marcusguttenplan/Documents/records/backups/digitalocean",
+		"/Users/marcusguttenplan/Desktop/frontyard",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_impractic.al/threes/bower_components/normalize-scss/sass/_support-for.scss",
+		"/Users/marcusguttenplan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/about.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/css/scss/components/_nav.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/trackerdev/server.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/stylesheets/bootstrap/_tables.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/stylesheets/bootstrap/_media.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/stylesheets/style.css",
+		"/Users/marcusguttenplan/Library/Application Support/Sublime Text 3/Packages/GotoDocumentation/goto_documentation.sublime-settings",
+		"/Users/marcusguttenplan/Library/Application Support/Sublime Text 3/Packages/User/goto_documentation.sublime-settings",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/2015_pwgenerator/pwgen.sh",
+		"/Users/marcusguttenplan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tellmewhen/tellmewhen/public/views/home.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/trackerdev/README.md",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/example-d3-react-master/src/d3Chart.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/reactdev/app/components/App.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/reactdev/views/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/trackerdev/public/directives/ghVisualization.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/trackerdev/public/views/cv.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/trackerdev/public/controllers/cv.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/tvshow-tracker-master/public/stylesheets/bootstrap/_navbar.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/first-webapp-react/components/LocationItem.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/first-webapp-react/assets/css/styles.css",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/first-webapp-react/components/Search.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/first-webapp-react/components/Map.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_react/first-webapp-react/main.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/server/views/404.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/components/navbar/navbar.controller.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/components/footer/footer.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/components/navbar/navbar.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/components/navbar/navbar.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/app/app.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/client/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/portfolio/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/portfolio/css/scss/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/css/scss/components/_other.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/css/scss/base/_mixins.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/css/scss/base/_config.scss",
+		"/Users/marcusguttenplan/Desktop/localspace/_doc/_comp/2015_scan",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/package.json",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/2016_cv/npm-debug.log",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/app/views/main.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/app/views/signup.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/app/scripts/controllers/signup.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/Gruntfile.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/app/styles/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/client/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tmwtv/server/package.json",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/server/routes/signup.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/server/app.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/index.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/app.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/styles/main.scss",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/views/main.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/views/signup.html",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/scripts/controllers/signup.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/server/routes/singup.js",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/server/bin/www",
+		"/Users/marcusguttenplan/Dropbox (Personal)/_dev/_webdev/tellmewhentovote/dev/tellmewhentovo/client/app/views/search.html"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"all files and folders",
+			"",
+			"<current file>",
+			"",
+			"here",
+			"index.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"inline-",
+			"Object.assign",
+			"object.assign",
+			"react/lib/Object.assign",
+			"open 'certs/server/my-root-ca.crt.pem' # The path to your root CA file'",
+			"cert",
+			"certs",
+			"Config",
+			"certs",
+			"certs/",
+			"Searching",
+			"certs/",
+			"cert/",
+			"certs",
+			"open 'certs/server/my-root-ca.crt.pem'",
+			"DC:",
+			"port",
+			"accordion",
+			"z",
+			"h4",
+			"width",
+			"em",
+			"h3",
+			"border",
+			"left",
+			"scree",
+			"background",
+			"hover",
+			"borderr",
+			"border",
+			"git",
+			"hover",
+			"clea",
+			"clear",
+			"overflow",
+			"max-",
+			"1",
+			"z-inde",
+			"svg ",
+			"svg",
+			"z-in",
+			"append",
+			"experience",
+			"h4",
+			"dom",
+			"select",
+			"ffe",
+			"', ",
+			"jumb",
+			"shadow",
+			"label-",
+			"defa",
+			"&:ho",
+			"nav",
+			"$navbar-default-brand-hover-color",
+			"  ",
+			"prod_image",
+			"R5j8dWn9cV2NNlvN0eL7ezviLwMTpqw684RwoQdZ",
+			"line-he",
+			"butto",
+			"nav",
+			"color",
+			"sans",
+			"item",
+			"study",
+			"font-size",
+			"size",
+			"text",
+			"width",
+			"data",
+			"for",
+			"dataU",
+			"getItemF",
+			"img-responsive",
+			"img-re",
+			"vertical-align",
+			"vertical-align: top",
+			"selection",
+			"selecti",
+			"highli",
+			"navbar",
+			"base",
+			"res.send(status)",
+			"display",
+			"test",
+			"bower",
+			"karma",
+			"<i",
+			"favicon",
+			"  //",
+			"cursor",
+			"margin: 0 0 25px;",
+			";\n",
+			");\n",
+			"fi",
+			"adjecti",
+			"nouns",
+			"nounds",
+			".ghost-button",
+			"color",
+			"extend",
+			"copy",
+			"cc",
+			"div",
+			"M",
+			"media",
+			"img",
+			"-",
+			"posts title",
+			"title",
+			"posts_title",
+			"[posts.title]",
+			"posts.title",
+			"post.title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"h3",
+			"",
+			" ",
+			".topnav",
+			":"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 20.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_alert.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
