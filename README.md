@@ -7,6 +7,8 @@ Our proposal will take the form of a makerspace / design lab wherein ongoing tec
 
 Tools and techniques for mining information from everyday activity. (fix this bullshit)
 
+* [Facetracker](#facetracker)
+
 ## Installation
 
 **TO-DO**
@@ -79,7 +81,7 @@ waybackpack <url> --list
 ### Anthropometrics
 Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
 
-#### facetracker
+#### (#facetracker)
 
 `cd` into the `facetracker` directory. To run, install an http-server to serve the files locally from the project folder"
 
