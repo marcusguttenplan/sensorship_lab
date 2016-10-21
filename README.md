@@ -134,6 +134,16 @@ the python script works better but hits API rate limits (FIXED!!!), the shell sc
 sh harvest.sh
 ```
 
+In the `sentiments` directory
+
+```
+hashtag_downloader.py 
+```
+
+```
+sentiments.py
+```
+
 
 ### dscout
 Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
