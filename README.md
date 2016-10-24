@@ -23,36 +23,36 @@ Tools and techniques for mining information from everyday activity. (fix this bu
 * There are packages inside of the scripts that are required and might need to be sussed out
 
 
-### Brew
+##### Brew
 Install homebrew for OS X
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### Git
+##### Git
 ```
 brew install git
 ```
 
-### Node
+##### Node
 ```
 brew install node
 ```
 
-### Python
+##### Python
 Brew will also install `python`, a programming language, and `pip`, python's package manager.
 
 ```
 brew install python
 ```
 
-### Open CV
+##### Open CV
 ```
 brew tap homebrew/science
 brew install opencv3 --HEAD
 ```
 
-### Tweet Tracking
+##### Tweet Tracking
 ```
 gem install t
 ```
@@ -73,7 +73,7 @@ t set active <user> <token>
 t followers <user> > followlist.txt
 ```
 
-### waybackpack
+##### waybackpack
 ```
 pip install waybackpack
 ```
@@ -83,10 +83,11 @@ waybackpack <url> --list
 ```
 
 ## Laboratory Usage
+
 ### Anthropometrics
 Facial Recognition tool that checks a video feed to discern gender, emotion, nervousness for some sort of corellation.
 
-#### Facetracker
+##### Facetracker
 
 `cd` into the `facetracker` directory. To run, install an http-server to serve the files locally from the project folder"
 
@@ -110,7 +111,7 @@ This will open a webpage at `http://localhost:8080` with a facial recognition we
 ### Media Mining
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
 
-#### twitdiff
+##### twitdiff
 `twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time.
 
 ```
@@ -126,13 +127,13 @@ python followersdiff.py
 the python script works better but hits API rate limits (FIXED!!!), the shell script can scrape more info but currently does not show differences (possible fix?)
 
 
-#### emailcrawl
+##### emailcrawl
 
 ```
 sh harvest.sh
 ```
 
-#### sentiments
+##### sentiments
 
 In the `sentiments` directory
 
@@ -144,11 +145,11 @@ hashtag_downloader.py <topic>
 sentiments.py <topic.json>
 ```
 
-#### namefinder
+##### namefinder
 
 TODO
 
-#### backpack
+##### backpack
 
 
 ```
