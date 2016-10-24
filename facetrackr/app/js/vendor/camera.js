@@ -10,9 +10,14 @@ var camera = (function() {
 	var options;
 	var video, canvas, context;
 	var renderTimer;
+	// var heatmapCanvasSize = document.getElementById("heatmap");
+
+
 
 	function initVideoStream() {
 		video = document.createElement("video");
+		// video.setAttribute('width', heatmapCanvasSize.width);
+		// video.setAttribute('height', heatmapCanvasSize.height);
 		video.setAttribute('width', options.width);
 		video.setAttribute('height', options.height);
 
@@ -30,7 +35,7 @@ var camera = (function() {
 				} else {
 					video.src = (window.URL && window.URL.createObjectURL(stream)) || stream;
 				}
-				
+
 				initCanvas();
 			}, options.onError);
 		} else {
@@ -91,6 +96,8 @@ var camera = (function() {
 			options.fps = options.fps || 30;
 			options.width = options.width || 640;
 			options.height = options.height || 480;
+			// options.width = heatmapCanvasSize.width || 640;
+			// options.height = heatmapCanvasSize.height || 480;
 			options.mirror = options.mirror || false;
 			options.targetCanvas = options.targetCanvas || null; // TODO: is the element actually a <canvas> ?
 

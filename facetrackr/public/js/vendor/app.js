@@ -15,8 +15,10 @@
 
 	camera.init({
 		// downscale video for performance reasons
-		width: 320,
-		height: 240,
+		// width: 320,
+		// height: 240,
+		width: 600,
+		height: 450,
 
 		fps: 60,
 		mirror: true,

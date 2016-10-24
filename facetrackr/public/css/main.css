@@ -7640,12 +7640,41 @@ main {
 canvas#originalCanvas {
   border: 1px solid black;
   width: 48%;
-  height: auto; }
+  height: auto;
+  display: none; }
 
 canvas#trackerCanvas {
   border: 1px solid black;
-  width: 48%;
+  width: 100%;
+  height: auto;
+  max-height: 100%; }
+
+canvas#heatmap {
+  width: 100%;
   height: auto; }
+
+canvas#heatcanvas {
+  width: 100%;
+  height: auto;
+  display: none; }
+
+canvas#eyeCanvas,
+canvas#bwCanvas,
+canvas#thCanvas,
+canvas#oldCanvas,
+canvas#curCanvas,
+canvas#cCanvas {
+  display: none; }
+
+#correlationPercentage {
+  position: absolute;
+  left: 10px;
+  top: 100px; }
+
+#blinksDetected {
+  position: absolute;
+  left: 10px;
+  top: 120px; }
 
 .holder {
   position: relative;
@@ -7692,40 +7721,6 @@ body.active #trackercontent {
 .notSupported img {
   display: block;
   margin: 0 auto; }
-
-#fork,
-#idevelop {
-  display: block;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  right: 30px;
-  padding: 10px 50px 10px 10px;
-  background: url("../img/blacktocat.png") #0090ff no-repeat 95% 50%;
-  border: 1px solid #0090ff;
-  border-top: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-  color: #fff;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px; }
-
-#fork:hover,
-#idevelop:hover {
-  text-decoration: underline; }
-
-#idevelop {
-  opacity: 0.4;
-  border: 1px solid #eee;
-  border-top: 0;
-  color: #333;
-  right: 200px;
-  background: url("../img/idevelop.png") #fff no-repeat 95% 50%; }
-
-#idevelop:hover {
-  opacity: 1; }
 
 .footer {
   position: fixed;
