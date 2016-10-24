@@ -105,11 +105,7 @@ This will open a webpage at `http://localhost:8080` with a facial recognition we
 
 * integrate blinktracker, face deform, and ~~face substitution~~
 
-#### clmtrackr (for reference)
-
-Run `http-server`, and navigate to `http://localhost:3000` in your browser.
-
-### Forensic Harvesting
+### Media Mining
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
 
 #### twitdiff
@@ -128,25 +124,43 @@ python followersdiff.py
 the python script works better but hits API rate limits (FIXED!!!), the shell script can scrape more info but currently does not show differences (possible fix?)
 
 
-#### social media
+#### emailcrawl
 
 ```
 sh harvest.sh
 ```
 
+#### sentiments
+
 In the `sentiments` directory
 
 ```
-hashtag_downloader.py 
+hashtag_downloader.py <topic>
 ```
 
 ```
-sentiments.py
+sentiments.py <topic.json>
 ```
 
+#### namefinder
 
-### dscout
-Ask if it's ok to include this tool? Ask if it's allowed to be "open-sourced"
+TODO
+
+#### backpack
+
+
+```
+sh backpack.sh
+```
+Runs the command  `waybackpack <site> -d <out folder>`
+
+```
+find . -iname "*.html" | xargs diff -ry --from-file * | colordiff
+```
+
+```
+find . -iname "*.html"
+```
 
 
 # Reference Links
