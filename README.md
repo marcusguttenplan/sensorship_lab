@@ -8,9 +8,11 @@ Our proposal will take the form of a makerspace / design lab wherein ongoing tec
 Tools and techniques for mining information from everyday activity. (fix this bullshit)
 
 * [Facetracker](#facetracker)
-* [clmtrackr](#clmtrackr)
 * [twitdiff](#twitdiff)
-* [social media mining](#social-media)
+* [emailcrawl](#emailcrawl)
+* [sentiments](#sentiments)
+* [namefinder](#namefinder)
+* [backpack](#backpack)
 
 ## Installation
 
