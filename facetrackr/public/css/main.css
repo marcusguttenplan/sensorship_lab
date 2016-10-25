@@ -7637,45 +7637,6 @@ main {
   width: 100%;
   padding-bottom: 50px; }
 
-canvas#originalCanvas {
-  width: 48%;
-  height: auto;
-  display: none; }
-
-canvas#trackerCanvas {
-  width: 100%;
-  max-width: 1100px;
-  height: auto;
-  max-height: 95%; }
-
-canvas#heatmap {
-  height: 100%;
-  width: auto;
-  margin: 0 auto; }
-
-canvas#heatcanvas {
-  width: 100%;
-  height: auto;
-  display: none; }
-
-canvas#eyeCanvas,
-canvas#bwCanvas,
-canvas#thCanvas,
-canvas#oldCanvas,
-canvas#curCanvas,
-canvas#cCanvas {
-  display: none; }
-
-#correlationPercentage {
-  position: absolute;
-  left: 10px;
-  top: 100px; }
-
-#blinksDetected {
-  position: absolute;
-  left: 10px;
-  top: 120px; }
-
 .holder {
   position: relative;
   width: 100%;
@@ -7721,6 +7682,39 @@ body.active #trackercontent {
 .notSupported img {
   display: block;
   margin: 0 auto; }
+
+canvas#originalCanvas {
+  width: 48%;
+  height: auto;
+  display: none; }
+
+canvas#trackerCanvas {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  max-height: 95%; }
+
+canvas#heatmap {
+  height: 100%;
+  width: auto; }
+
+canvas#eyeCanvas,
+canvas#bwCanvas,
+canvas#thCanvas,
+canvas#oldCanvas,
+canvas#curCanvas,
+canvas#cCanvas {
+  display: none; }
+
+#correlationPercentage {
+  position: absolute;
+  left: 10px;
+  top: 100px; }
+
+#blinksDetected {
+  position: absolute;
+  left: 10px;
+  top: 120px; }
 
 .footer {
   position: fixed;

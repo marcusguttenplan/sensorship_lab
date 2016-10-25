@@ -64,7 +64,7 @@ var camera = (function() {
 
 		renderTimer = setInterval(function() {
 			try {
-				context.drawImage(video, 50, 0, video.width, video.height, 25, 25);
+				context.drawImage(video, 0, 0, video.width, video.height);
 				options.onFrame(canvas);
 			} catch (e) {
 				// TODO

@@ -217,77 +217,6 @@ main {
   padding-bottom: 50px;
 }
 
-
-canvas#originalCanvas {
-    // border: 1px solid black;
-    width: 48%;
-    height: auto;
-    display: none;
-}
-
-canvas#trackerCanvas {
-    // border: 1px solid black;
-    width: 100%;
-    max-width: 1100px;
-    // width: auto;
-    height: auto;
-    max-height: 95%;
-}
-
-canvas#heatmap {
-  // width: 100%;
-  height: 100%;
-  width: auto;
-  margin: 0 auto;
-}
-
-canvas#heatcanvas {
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
-
-
-// video#videoel {
-//   width: 100%;
-//   height: auto;
-// }
-// canvas#overlay {
-//   width: 100%;
-//   height: auto;
-// }
-// canvas#webgl {
-//   width: 100%;
-//   height: auto;
-// }
-// canvas#sketch {
-//   width: 100%;
-//   height: auto;
-// }
-
-canvas#eyeCanvas,
-canvas#bwCanvas,
-canvas#thCanvas,
-canvas#oldCanvas,
-canvas#curCanvas,
-canvas#cCanvas {
-  display: none;
-}
-
-#correlationPercentage{
-  position: absolute;
-  left: 10px;
-  top: 100px;
-}
-#blinksDetected {
-  position: absolute;
-  left: 10px;
-  top: 120px;
-}
-
-
-
 // #originalCanvas {
 //   width: 100%;
 //   height: 100%;
@@ -358,6 +287,68 @@ body.active #trackercontent {
 .notSupported img {
 	display: block;
 	margin: 0 auto;
+}
+
+
+canvas#originalCanvas {
+    // border: 1px solid black;
+    width: 48%;
+    height: auto;
+    display: none;
+}
+
+canvas#trackerCanvas {
+    // border: 1px solid black;
+    width: 100%;
+    max-width: 1100px;
+    // width: auto;
+    height: auto;
+    max-height: 95%;
+}
+
+canvas#heatmap {
+  // width: 100%;
+  height: 100%;
+  width: auto;
+}
+
+
+
+// video#videoel {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#overlay {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#webgl {
+//   width: 100%;
+//   height: auto;
+// }
+// canvas#sketch {
+//   width: 100%;
+//   height: auto;
+// }
+
+canvas#eyeCanvas,
+canvas#bwCanvas,
+canvas#thCanvas,
+canvas#oldCanvas,
+canvas#curCanvas,
+canvas#cCanvas {
+  display: none;
+}
+
+#correlationPercentage{
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+#blinksDetected {
+  position: absolute;
+  left: 10px;
+  top: 120px;
 }
 
 
