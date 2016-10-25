@@ -12,6 +12,7 @@ help() {
   echo " finder   	find crawled HTML folders"
 	echo " opener		open crawled HTML folders in browser"
 	echo " differ		find differences in crawled HTML"
+	echo " cleaner	remove crawled HTML"
 	echo "\n"
 	echo "\n"
 	exit 0
@@ -85,6 +86,14 @@ crawler() {
     echo $i # or do whatever with individual element of the array
 		waybackpack $i -d $i
   done
+}
+
+cleaner() {
+	echo " "
+	echo "Removing crawled data"
+	echo "_____________________________________________"
+	find . ! -name 'backpack.sh' -type d -exec rm -r {} +
+	exit 0
 }
 
 "$@"
