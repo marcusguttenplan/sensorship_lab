@@ -1,3 +1,6 @@
+#!usr/bin/bash
+
+
 help() {
 	echo "\n"
 	echo "\n"
