@@ -153,7 +153,7 @@ TODO
 
 
 ```
-sh backpack.sh
+sh backpack.sh help
 ```
 Runs the command  `waybackpack <site> -d <out folder>`
 
