@@ -2,6 +2,7 @@ import api_keys
 from requests_oauthlib import OAuth1Session
 import json
 import sys
+import signal
 
 def stream(hashtag):
     twitter = OAuth1Session(api_keys.KEY, client_secret=api_keys.SECRET,
@@ -26,3 +27,4 @@ if __name__ == '__main__':
     if len(sys.argv) >= 2:
         hashtag = sys.argv[1]
     stream(hashtag)
+    signal.alarm(5)
