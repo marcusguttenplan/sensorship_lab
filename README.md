@@ -1,7 +1,10 @@
 # sensorship_lab
-Our proposed lab brings together our respective work in digital ethnography and design interventions, which explore surveillance, choreographies of power and the making of a policed state. Our lab is a space for mutual provocations between technologies of surveying and ethnographic ways of seeing. This provides ethnographic practitioners a glimpse into automated investigation techniques employed by the state. These techniques are often used to inform researchers, journalists, and activists seeking to witness events in the digital age. How can ethnographers engage these tools to augment an ethnographic output? How can ethnographers engage these tools to create collaborative outputs with their interlocutors and communities? 
 
-Our proposal will take the form of a makerspace / design lab wherein ongoing technology training sessions will be held for ethnographic practitioners interested in getting hands on experience with the tools and techniques of surveillance. This provides ethnographic practitioners a glimpse into automated investigation techniques employed by the state [oppressors]. These techniques are often used to inform researchers, journalists, and activists seeking to witness events in the digital age. How can ethnographers engage these tools to augment an ethnographic output? How can ethnographers engage these tools to create collaborative outputs with their interlocutors and communities? 
+Our lab is a space for mutual provocations between technologies of surveying and ethnographic ways of seeing. How have ethnographers adapted methodologically to witness events in the digital age? What insight can the history of ethnography provide for the future of biometrics and tracking? 
+
+We introduce automated investigation techniques for mining data online, and utilize computer vision to track and collect biometric data. How can ethnographers engage these tools to augment an ethnographic output? Can these tools be used to create collaborative outputs co-produced by interlocutors and communities? What does an  ‘open-source’ model look like for ethnography?
+
+The lab encourages participants to envision a creative dismantling of designed power systems: Once you have learned to find faces, you can also obfuscate or swap faces -- providing camouflage, subversion, or protection. Can ethnography inform biometric design to create methods of anti-profiling? How can ethnographic expertise inform critical consciousness and disruption of mass surveillance?
 
 ### automated investigation
 
