@@ -59,7 +59,6 @@ opener() {
 
 differ() {
 	# find . -iname '*.html' | xargs diff -ry --from-file * | colordiff
-
 	echo " "
 	echo "Enter directory:"
 	echo "_____________________________________________"
@@ -71,9 +70,19 @@ differ() {
   do
     echo $i # or do whatever with individual element of the array
 		cd $i
-		find . -iname '*.html' | while read line; do
-			
-		done
+		htmlarray=($(find . -iname '*.html'))
+		length=${#htmlarray[*]}
+		echo "${htmlarray[0]}"
+		echo "${htmlarray[$(( $length-1 ))]}"
+		colordiff -bur --from-file ${htmlarray[0]} ${htmlarray[1]} ${htmlarray[$(( $length-1 ))]}
+		# find . -iname '*.html' | xargs diff -ry --from-file * | colordiff
+		# find . -iname '*.html' | while read line1 <&5; do
+    #   read line2 <&5
+    #   read line3 <&5
+    #   read line4 <&5
+		#
+    #   echo "Four lines: $line1 $line2 $line3 $line4"
+		# done
   done
 
 }
