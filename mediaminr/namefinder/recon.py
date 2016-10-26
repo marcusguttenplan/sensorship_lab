@@ -24,7 +24,7 @@ for i in range(len(user_list)):
     #update followers
     print "updating profiles for user %s..." % (user_list[i], )
 
-    cmd = "./recon-cli -m profiler -o source=%s -x" % (user_list[i], )
+    cmd = "../../recon-ng/recon-cli -m profiler -o source=%s -x" % (user_list[i], )
     # jsonOut = "./recon-cli -m json -o filename=./%s.json -o tables=profiles -x" % (user_list[i], )
 
     usernames = os.popen(cmd).read()

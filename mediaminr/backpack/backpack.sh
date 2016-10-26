@@ -64,14 +64,16 @@ differ() {
 	echo "Enter directory:"
 	echo "_____________________________________________"
 	echo " "
-  read -a dir
+  read -a dirp
   echo "_____________________________________________"
 	echo " "
-  for i in "${dir[@]}"
+  for i in "${dirp[@]}"
   do
     echo $i # or do whatever with individual element of the array
-		# cd $i
-		find $i -iname '*.html' | xargs diff -ry --from-file * | colordiff
+		cd $i
+		find . -iname '*.html' | while read line; do
+			
+		done
   done
 
 }
