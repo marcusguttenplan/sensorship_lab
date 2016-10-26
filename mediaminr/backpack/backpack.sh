@@ -63,18 +63,19 @@ differ() {
 	echo "Enter directory:"
 	echo "_____________________________________________"
 	echo " "
-  read -a dirp
+  read -e dirp
   echo "_____________________________________________"
 	echo " "
-  for i in "${dirp[@]}"
-  do
-    echo $i # or do whatever with individual element of the array
-		cd $i
+  # for i in "${dirp[@]}"
+  # do
+    echo $dirp # or do whatever with individual element of the array
+		cd $dirp
 		htmlarray=($(find . -iname '*.html'))
 		length=${#htmlarray[*]}
 		echo "${htmlarray[0]}"
 		echo "${htmlarray[$(( $length-1 ))]}"
-		colordiff -bur --from-file ${htmlarray[0]} ${htmlarray[1]} ${htmlarray[$(( $length-1 ))]}
+		# colordiff -bur --from-file ${htmlarray[0]} ${htmlarray[1]} ${htmlarray[$(( $length-1 ))]}
+		colordiff -bur --from-file ${htmlarray[0]} ${htmlarray[$(( $length-1 ))]}
 		# find . -iname '*.html' | xargs diff -ry --from-file * | colordiff
 		# find . -iname '*.html' | while read line1 <&5; do
     #   read line2 <&5
@@ -83,7 +84,7 @@ differ() {
 		#
     #   echo "Four lines: $line1 $line2 $line3 $line4"
 		# done
-  done
+  # done
 
 }
 
