@@ -136,7 +136,7 @@ sh harvest.sh
 In the `sentiments` directory
 
 ```
-hashtag_downloader.py <topic>
+hashtag_downloader.py '<topic>'   >    '<topic.json>'
 ```
 
 ```
