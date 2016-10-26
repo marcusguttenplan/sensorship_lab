@@ -112,13 +112,11 @@ This will open a webpage at `http://localhost:8080` with a facial recognition we
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
 
 ##### twitdiff
-`twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time.
+`twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time. Add developer consumer key/secret and access control/secret keys to a file called `tconf`
 
 ```
-sh twitdiff.sh
+python authtest.py
 ```
-
-or
 
 ```
 python followersdiff.py
@@ -138,7 +136,7 @@ sh harvest.sh
 In the `sentiments` directory
 
 ```
-hashtag_downloader.py <topic>
+hashtag_downloader.py '<topic>'   >    '<topic.json>'
 ```
 
 ```
@@ -176,6 +174,7 @@ find . -iname "*.html"
 * [raspi cat tracker](http://www.girliemac.com/blog/2015/12/25/kittycam-raspberrypi-camera-cat-face-recog-nodejs/)
 * [track those eyes](http://andrevenancio.com/eye-blink-detection/)
 * [tweet image from webcame](https://github.com/lonekorean/diff-cam-feed)
+* [view twitter user's timeline (twittergoggles)](https://otherside.site/)
 
 ##### scrapers
 * [harvester (crawler)](https://github.com/TransparencyToolkit/Harvester)
