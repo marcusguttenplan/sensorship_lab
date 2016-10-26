@@ -176,6 +176,7 @@ find . -iname "*.html"
 * [raspi cat tracker](http://www.girliemac.com/blog/2015/12/25/kittycam-raspberrypi-camera-cat-face-recog-nodejs/)
 * [track those eyes](http://andrevenancio.com/eye-blink-detection/)
 * [tweet image from webcame](https://github.com/lonekorean/diff-cam-feed)
+* [view twitter user's timeline (twittergoggles)](https://otherside.site/)
 
 ##### scrapers
 * [harvester (crawler)](https://github.com/TransparencyToolkit/Harvester)
