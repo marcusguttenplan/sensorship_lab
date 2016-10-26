@@ -1,6 +1,3 @@
-#!usr/bin/bash
-
-
 help() {
 	echo "\n"
 	echo "\n"
@@ -61,6 +58,8 @@ opener() {
 }
 
 differ() {
+	# find . -iname '*.html' | xargs diff -ry --from-file * | colordiff
+
 	echo " "
 	echo "Enter directory:"
 	echo "_____________________________________________"
@@ -71,9 +70,10 @@ differ() {
   for i in "${dir[@]}"
   do
     echo $i # or do whatever with individual element of the array
-		cd $i
-		find . -iname "*.html" | xargs diff -ry --from-file * | colordiff;
+		# cd $i
+		find $i -iname '*.html' | xargs diff -ry --from-file * | colordiff
   done
+
 }
 
 crawler() {
