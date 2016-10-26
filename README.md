@@ -112,13 +112,11 @@ This will open a webpage at `http://localhost:8080` with a facial recognition we
 Scripts for scraping information from the web, to emulate mass surveillance techniques of the state in field research.
 
 ##### twitdiff
-`twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time.
+`twitdiff` is a folder of scripts to record a user's twitter followers and record changes over time. Add developer consumer key/secret and access control/secret keys to a file called `tconf`
 
 ```
-sh twitdiff.sh
+python authtest.py
 ```
-
-or
 
 ```
 python followersdiff.py
