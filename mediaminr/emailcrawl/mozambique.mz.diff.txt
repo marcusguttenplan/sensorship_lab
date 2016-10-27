@@ -1,0 +1,95 @@
+
+	Searching 0 results...
+	Searching 100 results...
+	Searching 150 results...
+	Searching 50 results...
+*                                                                 *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* TheHarvester Ver. 2.7                                           *
+* cmartorella@edge-security.com                                   *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+*******************************************************************
+------------------
+------------------------------------
+196.3.96.21	admissao.uem.mz
+196.3.96.21	concursooperadormovel.incm.mz
+196.3.96.21	filosofia.uem.mz
+196.3.96.21	fundacao.uem.mz
+196.3.96.21	medicina.uem.mz
+196.3.96.21	nhambiu.uem.mz
+196.3.96.21	sti.uem.mz
+196.3.96.21	www.agronomia.uem.mz
+196.3.96.21	www.aquapro.co.mz
+196.3.96.21	www.architecture.uem.mz
+196.3.96.21	www.arquitectura.uem.mz
+196.3.96.21	www.australseguros.co.mz
+196.3.96.21	www.bipmicoa.org.mz
+196.3.96.21	www.cend.uem.mz
+196.3.96.21	www.ci.uem.mz
+196.3.96.21	www.cicjc.gov.mz
+196.3.96.21	www.cisco.uem.mz
+196.3.96.21	www.ciuem.mz
+196.3.96.21	www.concern-universal.org.mz
+196.3.96.21	www.cphlln.org.mz
+196.3.96.21	www.dapdi.uem.mz
+196.3.96.21	www.direito.uem.mz
+196.3.96.21	www.dra.uem.mz
+196.3.96.21	www.dsd.uem.mz
+196.3.96.21	www.economia.uem.mz
+196.3.96.21	www.engenharia.uem.mz
+196.3.96.21	www.eshti.uem.mz
+196.3.96.21	www.esj.ac.mz
+196.3.96.21	www.estamos.org.mz
+196.3.96.21	www.faced.uem.mz
+196.3.96.21	www.financas.uem.mz
+196.3.96.21	www.flcs.uem.mz
+196.3.96.21	www.forcom.org.mz
+196.3.96.21	www.frelimo-bancada.org.mz
+196.3.96.21	www.frelimo.org.mz
+196.3.96.21	www.hopem.org.mz
+196.3.96.21	www.igepe.org.mz
+196.3.96.21	www.iiam.gov.mz
+196.3.96.21	www.iscam.ac.mz
+196.3.96.21	www.jazz.uem.mz
+196.3.96.21	www.linkup.co.mz
+196.3.96.21	www.lwfmozambique.org.mz
+196.3.96.21	www.marine.uem.mz
+196.3.96.21	www.minag.gov.mz
+196.3.96.21	www.mozambique.mz
+196.3.96.21	www.msp.uem.mz
+196.3.96.21	www.naima.org.mz
+196.3.96.21	www.ocl
+196.3.96.21	www.ocl.co.mz
+196.3.96.21	www.openaccess.uem.mz
+196.3.96.21	www.pcs.edu.mz
+196.3.96.21	www.pedagogica.uem.mz
+196.3.96.21	www.quimica.uem.mz
+196.3.96.21	www.ruth.org.mz
+196.3.96.21	www.servicerto.co.mz
+196.3.96.21	www.siitri
+196.3.96.21	www.siitri.ac.mz
+196.3.96.21	www.sod.uem.mz
+196.3.96.21	www.uem
+196.3.96.21	www.unac.org.mz
+196.3.96.21	www.unilurio.ac.mz
+196.3.96.21	www.unitiva.ac.mz
+196.3.96.21	www.veterinaria.uem.mz
+196.3.96.21	www.wonasanana.org.mz
+196.3.96.21:www.mozambique.mz
+404
+==================
+Full harvest..
+No emails found
+Not found
+[+] Emails found:
+[+] Hosts found in search engines:
+[+] Virtual hosts:
+[-] Resolving hostnames IPs... 
+[-] Searching in Bing..
+[-] Searching in Exalead..
+[-] Searching in Google..
+[-] Searching in PGP Key server..

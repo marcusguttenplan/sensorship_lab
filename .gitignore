@@ -1,0 +1,14 @@
+.gitignore
+.DS_Store
+node_modules
+*.gif
+*.txt
+*.mp4
+*.ogv
+tconf
+@*
+design/
+recon-ng/
+facetracker/
+clmtrackr/
+mediaminr/**/*.html
