@@ -1,6 +1,0 @@
-KEY='7GMvs6VgjTMUmHX2QgbqkFl81'
-SECRET='YQdY7ooS6XFt6Fk5aEbsu1jUMFMSAIwa1sEvfQc09gLpSSdCes'
-TOKEN= '321798563-bJvXFy7AGSeYUVFIZPqTdhEwkucqqTHPetfSVZOv'
-TOKEN_SECRET= 'DaD9246bjnkVNtnoPzEf5keNKlbtANT6kyVG2ad3e0jT6'
-UNAME='billiamshakespe'
-PW='behemoth-proverb-pleasing-versicle-comply'
