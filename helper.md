@@ -15,7 +15,7 @@
 └── Public
 ```
 
-This is how the home folder is structured, you can use the `cd` command to move around. `cd Desktop` to see all of the folders and files on the desktop, or `cd Documents` to see all documents.
+This is how the home folder (`~`) is structured. You can use the `cd` command to move around. `cd Desktop` to see all of the folders and files on the desktop, or `cd Documents` to see all documents.
 
 #### working through the terminal
 * `cd`, change directory, _i.e._ `cd <folder>`
