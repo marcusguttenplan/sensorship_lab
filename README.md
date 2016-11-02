@@ -166,25 +166,5 @@ find . -iname "*.html" | xargs diff -ry --from-file * | colordiff
 find . -iname "*.html"
 ```
 
-
-# Reference Links
-
-##### facial recog stuff
-* [save face to database](https://stackoverflow.com/questions/33140178/is-there-any-node-js-library-for-offline-facial-recognition-identification)
-* [compare faces](https://stackoverflow.com/questions/21647573/use-opencv-and-node-to-compare-2-faces-for-similarity)
-* [facebook photo tag clone](https://www.sitepoint.com/face-detection-nodejs-opencv/)
-* [with openBR](http://openbiometrics.org/docs/tutorials/#face-recognition)
-* [raspi cat tracker](http://www.girliemac.com/blog/2015/12/25/kittycam-raspberrypi-camera-cat-face-recog-nodejs/)
-* [track those eyes](http://andrevenancio.com/eye-blink-detection/)
-* [tweet image from webcame](https://github.com/lonekorean/diff-cam-feed)
-* [view twitter user's timeline (twittergoggles)](https://otherside.site/)
-
-##### scrapers
-* [harvester (crawler)](https://github.com/TransparencyToolkit/Harvester)
-* [metagoofil (metadata)](https://github.com/laramies/metagoofil)
-* [harvester (real estate)](https://github.com/dayweek/harvester)
-* [harvester (scraper)](https://github.com/blazaid/harvester)
-* [twoolpy](https://github.com/karpathy/twoolpy)
-
 ##### general tech cheat sheets
 * [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
