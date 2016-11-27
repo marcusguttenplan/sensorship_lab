@@ -17,6 +17,8 @@ Tools and techniques for mining information from everyday activity. (fix this bu
 * [namefinder](#namefinder)
 * [backpack](#backpack)
 
+Hella thanks to the creators of Recon-ng, waybackpack, theHarvester, and all of the other tools we used. These tools are not being redistributed without acknowledging their creators, and definitely will not be used to make money. We basically built a shim for the tools to slightly unify them for a demo to anthropologists on the power of OSINT information gathering.
+
 ## Installation
 
 **TO-DO**
